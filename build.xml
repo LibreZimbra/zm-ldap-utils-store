@@ -1,5 +1,5 @@
 <project name="zm-ldap-utils-store" default="deploy">
-  <import file="../zm-zcs/ant-global.xml"/>
+  <import file="ant-global.xml"/>
   <property name="ext.name" value="zimbraldaputils"/>
   <property name="extension.dist.dir" location="${dist.lib.ext.dir}/${ext.name}"/>
   <property name="extension.deploy.dir" location="${zimbra.home.dir}/lib/ext/${ext.name}"/>
